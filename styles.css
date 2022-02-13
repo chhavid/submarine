@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+.sky {
+    height: 10%;
+    box-shadow: 1px 5px 3px white;
+}
+.ocean {
+    height: 50%;
+    text-align: center;
+    background-color: dodgerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+    font-size: 15em;
+    color: hsl(210deg 89% 24% / 58%) ;
+}
+.first-shade{
+    background-color: hsl(210deg 96% 81%);
+}
+.second-shade{
+    background-color: hsl(210deg 90% 84%);
+    
+}
+.third-shade{
+    background-color: hsl(210deg 99% 90%);
+    
+}
+.fourth-shade{
+    background-color: hsl(210deg 95% 93%);
+    
+}
+.fifth-shade{
+    background-color: hsl(210deg 75% 95%);
+}
+
+.elevated {
+    position: relative;
+    bottom: 0.4em;
+}
